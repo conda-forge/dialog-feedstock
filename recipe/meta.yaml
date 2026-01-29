@@ -1,5 +1,5 @@
 {% set name = "dialog" %}
-{% set version = "1.3_20251001" %}
+{% set version = "1.3_20260107" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://invisible-mirror.net/archives/{{ name }}/{{ name }}-{{ version | replace("_", "-") }}.tgz
-  sha256: bee47347a983312facc4dbcccd7fcc86608d684e1f119d9049c4692213db96c3
+  sha256: 78b3dd18d95e50f0be8f9b9c1e7cffe28c9bf1cdf20d5b3ef17279c4da35c5b5
 
 build:
   number: 0
